@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/chanchal-portfolio/static/css/main.f3df63c0.css",
+    "main.js": "/chanchal-portfolio/static/js/main.3cf9e889.js",
+    "static/js/787.7da95b79.chunk.js": "/chanchal-portfolio/static/js/787.7da95b79.chunk.js",
+    "index.html": "/chanchal-portfolio/index.html",
+    "main.f3df63c0.css.map": "/chanchal-portfolio/static/css/main.f3df63c0.css.map",
+    "main.3cf9e889.js.map": "/chanchal-portfolio/static/js/main.3cf9e889.js.map",
+    "787.7da95b79.chunk.js.map": "/chanchal-portfolio/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3df63c0.css",
+    "static/js/main.3cf9e889.js"
+  ]
+}
