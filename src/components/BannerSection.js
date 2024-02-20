@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { FaArrowRight } from 'react-icons/fa'
+import banngerImage  from '../img/pexels-julia-m-cameron-4144923.jpg' 
 
 function BannerSection() {
     const handleNavigation = (e, id) => {
@@ -12,7 +13,7 @@ function BannerSection() {
     return (
         <div id="home" className='w-[100%] md:h-[100vh] h-[60vh] relative box-border'>
             {/* Background image */}
-            <img src='.\img\pexels-julia-m-cameron-4144923.jpg' alt='Chanchal Kumari' loading='lazy' className='w-full h-full z-[-1] fixed top-0 left-0 bottom-0 right-0' />
+            <img src={banngerImage} alt='Chanchal Kumari' loading='lazy' className='w-full h-full z-[-1] fixed top-0 left-0 bottom-0 right-0' />
             <div className='w-full h-full fixed top-0 left-0 right-0 z-20 opacity-40 bg-black'>
             </div>
             {/* Card */}

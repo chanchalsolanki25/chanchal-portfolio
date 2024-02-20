@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import image from '../img/chanchal.jpg'
 
 function About() {
   return (
@@ -12,7 +13,7 @@ function About() {
         <div className='md:flex block h-auto items-center border-r-4 border-b-4 border-yellow lg:p-10 p-6 bg-light shadow-2xl rounded-lg'>
           {/* Picture section */}
           <div className='basis-[50%] h-[400px]'>
-            <img className='h-full w-full object-cover' src="./img/chanchal.jpg" alt="Chanchal Kumari" loading='lazy' />
+            <img className='h-full w-full object-cover' src={image} alt="Chanchal Kumari" loading='lazy' />
           </div>
           {/* About me section */}
           <div className='basis-[50%] h-full lg:pl-20 ms:pl-12 md:pl-6 pl-0 md:pt-auto pt-6'>
