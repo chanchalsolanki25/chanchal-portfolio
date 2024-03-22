@@ -47,7 +47,7 @@ function Resume(props) {
         return (
             <div className="border-1 w-[90%] m-auto bg-white shadow-lg overflow-hidden rounded-sm my-2 flex flex-col justify-center items-center"
                 data-aos="fade-up"
-                data-aos-duration="1500">
+                data-aos-duration="1000">
                 <div className='w-full h-[200px]'>
                     <img src={product.image} alt={product.name} className="w-full h-full shadow-2 object-cover" />
                 </div>
@@ -83,18 +83,18 @@ function Resume(props) {
                         console.log('data.experience', typeof data.experience);
 
                             return (
-                                <div className={`mx-2 lg:py-7 py-5 flex md:flex-row flex-col justify-center ${index % 2 != 0 ? 'md:flex-row-reverse flex-row' : ''}`} data-aos="fade-up"
+                                <div className={`mx-2 lg:py-7 py-5 flex md:flex-row flex-col justify-center ${index % 2 !== 0 ? 'md:flex-row-reverse flex-row' : ''}`} data-aos="fade-up"
                                     data-aos-duration="1000"
                                     data-aos-anchor-placement="top-bottom"
                                     key={index}>
-                                    <div className={`basis-[50%] flex flex-col ${index % 2 == 0 ? ' md:border-r-[1px] md:border-gray mr-8  pr-8 md:items-end items-start' : 'items-start'}`}>
+                                    <div className={`basis-[50%] flex flex-col ${index % 2 === 0 ? ' md:border-r-[1px] md:border-gray mr-8  pr-8 md:items-end items-start' : 'items-start'}`}>
                                         <div className='flex items-center justify-end font-bold'>
                                             <FaCalendar className='mr-2' />
                                             <p className=''>{data.year}</p>
                                         </div>
                                         <p className='md:text-lg text-[16px]'>{data.role}</p>
                                     </div>
-                                    <div className={`basis-[50%] ${index % 2 != 0 ? 'md:border-r-[1px] md:border-gray md:mr-8 mr-auto  md:pr-8 pr-auto md:text-right text-left' : ''}`}>
+                                    <div className={`basis-[50%] ${index % 2 !== 0 ? 'md:border-r-[1px] md:border-gray md:mr-8 mr-auto  md:pr-8 pr-auto md:text-right text-left' : ''}`}>
                                         <p className='md:text-xl text-lg mb-3 text-black'>{data.company}</p>
                                         <p className='text-gray' style={{ fontFamily: 'Poppins, sans-serif' }}>{data.experience}</p>
                                     </div>

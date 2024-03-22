@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { FaArrowRight } from 'react-icons/fa'
 import banngerImage  from '../img/pexels-julia-m-cameron-4144923.jpg' 
 
