@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React from 'react';
 import './App.css';
 import About from './components/About';
 import BannerSection from './components/BannerSection';
