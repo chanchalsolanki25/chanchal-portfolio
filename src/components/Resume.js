@@ -80,7 +80,7 @@ function Resume(props) {
                     <h3 className='xl:text-3xl text-2xl lg:my-7 my-0 text-center ' style={{ fontFamily: 'Bebas Neue, sans-serif' }}>Experience</h3>
                     <div className='md:pb-0 pb-5'>
                         {props?.experience?.map((data, index) => {
-                            console.log('index: ', index);
+                        console.log('data.experience', typeof data.experience);
 
                             return (
                                 <div className={`mx-2 lg:py-7 py-5 flex md:flex-row flex-col justify-center ${index % 2 != 0 ? 'md:flex-row-reverse flex-row' : ''}`} data-aos="fade-up"
@@ -106,10 +106,10 @@ function Resume(props) {
                 {/* Education */}
                 <div className='basis-[49%]'>
                     <h3 className='xl:text-3xl text-2xl lg:my-7 mt-3 mb-5 text-center' style={{ fontFamily: 'Bebas Neue, sans-serif' }}>Education</h3>
-                    <div className='grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-3 md:py-5 pb-4 pt-0'>
+                    <div className='md:flex justify-center md:py-5 pb-4 pt-0'>
                         {props?.education?.map((data, index) => {
                             return (
-                                <div className='md:p-7 p-4 border-l-[1px] shadow-xl relative border-gray'
+                                <div className='md:p-7 mx-2 p-4 border-l-[1px] shadow-lg relative border-gray'
                                     data-aos="fade-up"
                                     data-aos-duration="1000"
                                     data-aos-anchor-placement="top-bottom"

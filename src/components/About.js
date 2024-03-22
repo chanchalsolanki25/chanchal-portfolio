@@ -3,11 +3,11 @@ import image from '../img/chanchal.jpg'
 
 function About() {
   return (
-      // About section
-      <div id='about' className='h-full w-full'>
-        {/* for top extra space */}
-        <p className='xl:h-[4rem] h-[3rem] relative z-50 bg-light'></p>
-        {/* Outer main section */}
+    // About section
+    <div id='about' className='h-full w-full'>
+      {/* for top extra space */}
+      <p className='xl:h-[4rem] h-[3rem] relative z-50 bg-light'></p>
+      {/* Outer main section */}
       <div className=' lg:py-[72px] sm:py-[50px] py-[20px] lg:px-[100px] sm:px-[50px] px-[20px] bg-transparent bottom-0 relative z-50'>
         {/* Inner section */}
         <div className='md:flex block h-auto items-center border-r-4 border-b-4 border-yellow lg:p-10 p-6 bg-light shadow-2xl rounded-lg'>
@@ -24,16 +24,22 @@ function About() {
               <p>
                 {/* <span className='font-extrabold'>
                 </span> */}
-                I am a qualified Post Graduate professional with qualitative knowledge and experience in Frontend web Applications using React. Proficient in leveraging the power of the React library to build dynamic and responsive web applications. My experience specifically in developing the website layouts using HTML5, CSS3, Bootstrap, PrimeReact and Tailwind CSS. Successfully completed multiple projects, demonstrating a fair understanding of React concepts and best practices with Webanix Solutions.
+                Diligent Front-end developer with 1+ years of comprehensive
+                experience in creating custom websites, skilled in developing user
+                interfaces. Committed to staying current with the latest web
+                development practices. Enthusiastic about learning and development
+                with a desire to apply skills on a variety of projects. Ability to collaborate
+                effectively with senior developers while spending extra time to be
+                mentored.
               </p>
             </div>
             <button className='lg:mt-10 mt-4 lg:py-4 p-3 lg:px-8 bg-yellow md:text-auto text-sm text-white hover:bg-darkyellow  rounded-sm font-bold box-border'>
-              <a href='.\resume\CV_Chanchal Kumari.pdf' download className='lg:py-4 p-3 lg:px-8'>Download my CV</a>
+              <a href='.\resume\Chanchal CV.pdf' download className='lg:py-4 p-3 lg:px-8'>Download my CV</a>
             </button>
           </div>
         </div>
       </div>
-      </div>
+    </div>
 
   )
 }

@@ -15,18 +15,6 @@ function ResumeData() {
       score: '77.8%',
       university: `JNVU University, Jodhpur`
     },
-    {
-      year: '2012-2013',
-      course: 'Senior Secondary School',
-      score: '68.6%',
-      university: `Sagar Senior Secondary School, Lunawa`
-    },
-    {
-      year: '2010-2011',
-      course: 'Secondary School',
-      score: '60.6%',
-      university: `Sagar Senior Secondary School, Lunawa`
-    },
   ]
 
   const experience = [
@@ -34,13 +22,15 @@ function ResumeData() {
       year: 'Dec 2022 - Dec 2023',
       role: 'Junior Frontend Developer',
       company: 'Webanix Pvt Ltd.',
-      experience: '	Working knowledge and experience in developing fully responsive website layouts, converting Figma Designs into code. Also, I worked on e-commerce websites and component-based-project, product listing, product detail, add to cart, wish list, etc., and experienced using third-party frameworks like Bootstrap, Tailwind CSS, and Prime React, to create efficient components in less code and time.',
+      experience: `Developed and maintained a user-friendly interfaces with intuitive navigation and responsive layouts to enhance the user experience and well-versed with converting Figma Designs into code. Collaborated closely with the client and design team to understand the website requirements, target audience, and overall vision. Assisted my project team / senior colleagues in developing and 
+      modifying UIs, creating multiple forms and API Integrations. Proficient in developing websites and web applications using React.js, Next.js and angular frameworks as well as experienced in third-part 
+      frameworks such as Bootstrap, Tailwind CSS, and Prime React to enhance the project’s interactivity and user engagement. Optimized the performance and responsiveness by employing lazy loading techniques and asynchronous data retrieval. Provided ongoing support and maintenance including updates and refinements to continuously improve the project’s design and user experience. Earned recognition by receiving the certificate for Best Performance.`,
     },
     {
       year: 'july 2022 - Dec 2022',
       role: 'Intern',
       company: 'Websenor',
-      experience: `In Websenor, I have worked as a trainee on my self-project. During this internship I have learned UI side and logic part, and a fully functional frontend side like add to cart, add to wish list, order page and recently viewed products.`
+      experience: `Worked as a trainee on my own-project and created a fully responsive single page e-commerce website ‘Fashion’ using Next.js framework. Created a fully functional parts of website i.e., add to cart, product fetching, order process and recently view product. Used DummyJSON APIs and created a commercial website along with all types of categorized products. Collaborated with my senior developers on day-to-day basis and learned User Interface side and logic part`
     },
     
   ]
