@@ -20,21 +20,19 @@ function About() {
             <h2 className='xl:text-4xl sm:text-2xl text-lg font-extralight lg:mb-10 mb-4 text-yellow'>About <span className='font-extrabold'>Me
             </span>
             </h2>
-            <div className=' h-auto' style={{ fontFamily: 'Poppins, sans-serif' }}>
+            <div className=' h-auto text-justify' style={{ fontFamily: 'Poppins, sans-serif' }}>
               <p>
                 {/* <span className='font-extrabold'>
                 </span> */}
-                Diligent Front-end developer with 1+ years of comprehensive
-                experience in creating custom websites, skilled in developing user
-                interfaces. Committed to staying current with the latest web
-                development practices. Enthusiastic about learning and development
-                with a desire to apply skills on a variety of projects. Ability to collaborate
-                effectively with senior developers while spending extra time to be
-                mentored.
+                Diligent front-end developer with 2 years of comprehensive experience
+                in creating custom websites, skilled in developing user interfaces.
+                Enthusiastic about learning and development with a desire to apply skills
+                on a variety of projects.
+                <strong></strong>
               </p>
             </div>
             <button className='lg:mt-10 mt-4 lg:py-4 p-3 lg:px-8 bg-yellow md:text-auto text-sm text-white hover:bg-darkyellow  rounded-sm font-bold box-border'>
-              <a href='.\resume\Chanchal CV.pdf' download className='lg:py-4 p-3 lg:px-8'>Download my CV</a>
+              <a href='.\resume\Chanchal Kumari_CV.pdf' download className='lg:py-4 p-3 lg:px-8'>Download my CV</a>
             </button>
           </div>
         </div>
