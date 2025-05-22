@@ -57,7 +57,7 @@ function Resume(props) {
                 </Link>
                 <div className='md:m-4 m-2'>
                     <h4 className="mb-1 text-xl my-3 hover:text-yellow duration-300">{product.name}</h4>
-                    <p className="my-3 text-gray xl:min-h-[96px] md:min-h-[168px] min-h-[120px]">{isExpanded ? product.description : product?.description.length > 100 ? handleDescription(product?.description) + '...' : product?.description}</p>
+                    <p className="my-3 text-gray xl:min-h-[96px] md:min-h-[168px] min-h-[120px] text-justify">{isExpanded ? product.description : product?.description.length > 100 ? handleDescription(product?.description) + '...' : product?.description}</p>
                 </div>
                 <button className='w-full text-center py-3 bg-yellow text-white' onClick={() => setExtendedId(product.id === extendedId ? null : product.id)}>
                     {isExpanded ? 'Read Less' : 'Read More'}
@@ -92,11 +92,11 @@ function Resume(props) {
                                             <FaCalendar className='mr-2' />
                                             <p className=''>{data.year}</p>
                                         </div>
-                                        <p className='md:text-lg text-[16px]'>{data.role}</p>
+                                        <p className='md:text-lg text-[16px] text-justify'>{data.role}</p>
                                     </div>
                                     <div className={`basis-[50%] ${index % 2 !== 0 ? 'md:border-r-[1px] md:border-gray md:mr-8 mr-auto  md:pr-8 pr-auto md:text-right text-left' : ''}`}>
                                         <p className='md:text-xl text-lg mb-3 text-black'>{data.company}</p>
-                                        <p className='text-gray' style={{ fontFamily: 'Poppins, sans-serif' }}>{data.experience}</p>
+                                        <p className='text-gray text-justify' style={{ fontFamily: 'Poppins, sans-serif' }}>{data.experience}</p>
                                     </div>
                                 </div>
                             )

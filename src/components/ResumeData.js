@@ -19,6 +19,14 @@ function ResumeData() {
 
   const experience = [
     {
+      year: 'Oct 2024 - March 2025',
+      role: 'Associate Frontend Developer',
+      company: 'Auwave',
+      experience: `Developed and maintained responsive web interfaces using HTML, 
+      CSS, JavaScript, and Bootstrap. Built dynamic and interactive UI components using jQuery, improving user engagement and site usability. Collaborated closely with UI/UX designers to convert design mockups into functional web pages. Ensured cross-browser compatibility and responsive behavior across different devices and screen sizes. Participated
+      debugging, testing, and performance optimization of frontend features.`
+    },
+    {
       year: 'Dec 2022 - Dec 2023',
       role: 'Junior Frontend Developer',
       company: 'Webanix Pvt Ltd.',
@@ -32,7 +40,7 @@ function ResumeData() {
       company: 'Websenor',
       experience: `Worked as a trainee on my own-project and created a fully responsive single page e-commerce website ‘Fashion’ using Next.js framework. Created a fully functional parts of website i.e., add to cart, product fetching, order process and recently view product. Used DummyJSON APIs and created a commercial website along with all types of categorized products. Collaborated with my senior developers on day-to-day basis and learned User Interface side and logic part`
     },
-    
+
   ]
   return (
     <div id="resume">
