@@ -4,6 +4,8 @@ import React, { useState, useEffect } from 'react'
 import { FaCalendar, FaExternalLinkAlt } from 'react-icons/fa'
 import { Carousel } from 'primereact/carousel';
 import { ProductService } from './ProductService'; import { Link } from 'react-router-dom';
+;
+
 
 function Resume(props) {
     const [products, setProducts] = useState([]);
@@ -78,6 +80,8 @@ function Resume(props) {
                     <h3 className='xl:text-3xl text-2xl lg:my-7 my-0 text-center ' style={{ fontFamily: 'Bebas Neue, sans-serif' }}>Experience</h3>
                     <div className='md:pb-0 pb-5'>
                         {props?.experience?.map((data, index) => {
+                        console.log('data.experience', typeof data.experience);
+
                             return (
                                 <div className={`mx-2 lg:py-7 py-5 flex md:flex-row flex-col justify-center ${index % 2 !== 0 ? 'md:flex-row-reverse flex-row' : ''}`} data-aos="fade-up"
                                     data-aos-duration="1000"
@@ -92,7 +96,7 @@ function Resume(props) {
                                     </div>
                                     <div className={`basis-[50%] ${index % 2 !== 0 ? 'md:border-r-[1px] md:border-gray md:mr-8 mr-auto  md:pr-8 pr-auto md:text-right text-left' : ''}`}>
                                         <p className='md:text-xl text-lg mb-3 text-black'>{data.company}</p>
-                                        <p className='text-gray text-justify' style={{ fontFamily: 'Poppins, sans-serif' }}>{data.experience}</p>
+                                        <p className='text-gray' style={{ fontFamily: 'Poppins, sans-serif' }}>{data.experience}</p>
                                     </div>
                                 </div>
                             )
@@ -128,7 +132,7 @@ function Resume(props) {
             {/* Cards */}
             <div className="card relative z-40 lg:px-[100px] md:px-[50px] px-[20px] bg-light">
                 <h3 className='xl:text-3xl text-2xl md:py-7 pb-0 pt-3 text-center' style={{ fontFamily: 'Bebas Neue, sans-serif' }}>Projects</h3>
-                <Carousel value={products} numVisible={3} numScroll={1} responsiveOptions={responsiveOptions} className="custom-carousel md:pb-4 text-justify" circular
+                <Carousel value={products} numVisible={3} numScroll={1} responsiveOptions={responsiveOptions} className="custom-carousel md:pb-4" circular
                     autoplayInterval={5000}
                     itemTemplate={productTemplate}
                     showIndicators={true}          
