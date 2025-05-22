@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/chanchal-portfolio/static/css/main.22a78941.css",
-    "main.js": "/chanchal-portfolio/static/js/main.ef1663db.js",
+    "main.js": "/chanchal-portfolio/static/js/main.4e36a4c0.js",
     "static/js/787.7da95b79.chunk.js": "/chanchal-portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/pexels-julia-m-cameron-4144923.jpg": "/chanchal-portfolio/static/media/pexels-julia-m-cameron-4144923.4f18c35031e38944bd9a.jpg",
     "static/media/minfert.png": "/chanchal-portfolio/static/media/minfert.47424ff50c7eb344097e.png",
@@ -12,11 +12,11 @@
     "static/media/drsunny.png": "/chanchal-portfolio/static/media/drsunny.5f6f341b539a83c46b62.png",
     "index.html": "/chanchal-portfolio/index.html",
     "main.22a78941.css.map": "/chanchal-portfolio/static/css/main.22a78941.css.map",
-    "main.ef1663db.js.map": "/chanchal-portfolio/static/js/main.ef1663db.js.map",
+    "main.4e36a4c0.js.map": "/chanchal-portfolio/static/js/main.4e36a4c0.js.map",
     "787.7da95b79.chunk.js.map": "/chanchal-portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22a78941.css",
-    "static/js/main.ef1663db.js"
+    "static/js/main.4e36a4c0.js"
   ]
 }
