@@ -131,7 +131,7 @@ function Resume(props) {
                 <Carousel value={products} numVisible={3} numScroll={1} responsiveOptions={responsiveOptions} className="custom-carousel md:pb-4 text-justify" circular
                     autoplayInterval={5000}
                     itemTemplate={productTemplate}
-                    showIndicators={true}
+                    showIndicators={true}          
                 />
             </div>
         </div>
