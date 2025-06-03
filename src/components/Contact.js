@@ -7,10 +7,8 @@ import { TiSocialLinkedin } from 'react-icons/ti'
 
 function Contact() {
      useEffect(() => {
-        Aos.init({
-            duration: 1000,
-            once: true,
-        });
+          console.log('AOS initialized');
+        Aos.init();
     }, []);
     return (
         <div id='contact' className='bg-light xl:pt-20 pt-12 relative z-50 lg:px-[100px] sm:px-[50px] px-[20px]'>
