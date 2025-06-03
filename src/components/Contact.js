@@ -1,10 +1,17 @@
-import React from 'react'
+import React,{useEffect} from 'react'
+import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { FiPhoneCall } from 'react-icons/fi'
 import { MdOutlineMail } from 'react-icons/md'
 import { TiSocialLinkedin } from 'react-icons/ti'
 
 function Contact() {
+     useEffect(() => {
+        Aos.init({
+            duration: 1000,
+            once: true,
+        });
+    }, []);
     return (
         <div id='contact' className='bg-light xl:pt-20 pt-12 relative z-50 lg:px-[100px] sm:px-[50px] px-[20px]'>
             <h2 className='xl:text-4xl sm:text-2xl text-lg text-center font-extralight lg:mb-10 mb-4 '>Get<span className='font-extrabold'> In Touch</span></h2>
@@ -15,7 +22,7 @@ function Contact() {
                 <div className='flex flex-col items-center bg-white xl:p-8 p-3 w-full'
                     data-aos='fade-up'
                     data-aos-duration="1000"
-                    data-aos-anchor-placement="top-bottom"
+                    // data-aos-anchor-placement="top-bottom"
                 >
                     <p className='p-4 rounded-full bg-[#009900] text-white mb-2'><FiPhoneCall /></p>
                     <p className='font-bold text-center'> Call me </p>
@@ -25,7 +32,7 @@ function Contact() {
                 <div className='flex flex-col items-center bg-white xl:p-8 p-3 w-full'
                     data-aos='fade-up'
                     data-aos-duration="1000"
-                    data-aos-anchor-placement="top-bottom"
+                    // data-aos-anchor-placement="top-bottom"
                 >
                     <p className='p-4 rounded-full mb-2 bg-[#ff033e] text-white'> <MdOutlineMail /></p>
                     <p className='font-bold'>Email</p>
@@ -35,7 +42,7 @@ function Contact() {
                 <div className='xl:col-span-1 sm:col-span-2 flex flex-col items-center bg-white xl:p-8 p-3'
                     data-aos='fade-up'
                     data-aos-duration="1000"
-                    data-aos-anchor-placement="top-bottom"
+                    // data-aos-anchor-placement="top-bottom"
                 >
                     <p className='p-4 rounded-full mb-2 bg-[#00008b] text-white'><TiSocialLinkedin /></p>
                     <p className='font-bold text-center'>LinkedIn </p>

@@ -85,7 +85,7 @@ function Resume(props) {
                             return (
                                 <div className={`mx-2 lg:py-7 py-5 flex md:flex-row flex-col justify-center ${index % 2 !== 0 ? 'md:flex-row-reverse flex-row' : ''}`} data-aos="fade-up"
                                     data-aos-duration="1000"
-                                    data-aos-anchor-placement="top-bottom"
+                                    // data-aos-anchor-placement="top-bottom"
                                     key={index}>
                                     <div className={`basis-[50%] flex flex-col ${index % 2 === 0 ? ' md:border-r-[1px] md:border-gray mr-8  pr-8 md:items-end items-start' : 'items-start'}`}>
                                         <div className='flex items-center justify-end font-bold'>
@@ -112,7 +112,7 @@ function Resume(props) {
                                 <div className='md:p-7 mx-2 p-4 border-l-[1px] shadow-lg relative border-gray'
                                     data-aos="fade-up"
                                     data-aos-duration="1000"
-                                    data-aos-anchor-placement="top-bottom"
+                                    // data-aos-anchor-placement="top-bottom"
                                     key={index}>
                                     <p className='absolute left-[-8px] md:top-8 top-5 p-2 rounded-full bg-yellow '></p>
                                     <div className='flex items-center font-bold'>
