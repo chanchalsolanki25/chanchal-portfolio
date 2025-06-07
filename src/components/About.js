@@ -33,7 +33,7 @@ function About() {
               </p>
             </div>
             <button className='lg:mt-10 mt-4 lg:py-4 p-3 lg:px-8 bg-yellow md:text-auto text-sm text-white hover:bg-darkyellow  rounded-sm font-bold box-border'>
-              <a href='.\resume\Chanchal Kumari_CV.pdf' download className='lg:py-4 p-3 lg:px-8'>Download my CV</a>
+              <a href='.\resume\Chanchal_Kumari_frontend_CV_2025.pdf' download className='lg:py-4 p-3 lg:px-8'>Download my CV</a>
             </button>
           </div>
         </div>
